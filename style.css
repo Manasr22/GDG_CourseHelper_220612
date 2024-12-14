@@ -1,0 +1,74 @@
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 100px;
+            height: 100vh;
+            margin: 0;
+            background-color: #FF3CAC;
+            background-image: url('Screenshot (186).png');
+            color: #fff;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ffcc00;
+        }
+        #timer {
+            font-size: 3em;
+            color: #151616;
+            margin: 20px 0;
+        }
+        .image-container {
+            max-width: 30%;
+            position: relative;
+            top: -50px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+        .image-box {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        .text-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 15px;
+            color: white;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .preview-button, .link-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #ffcc00;
+            color: #151616;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            text-align: center;
+        }
+        .preview-button:hover, .link-button:hover {
+            background-color: #ffe066;
+        }
+    </style>
